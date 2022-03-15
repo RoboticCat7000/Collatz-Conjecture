@@ -3,7 +3,7 @@ x = int(input("Enter the number: "))
 
 def pattern(number):
     if is_even(number):
-        number = number / 2
+        number = int(number / 2)
         print(number)
         pattern(number)
     elif number == 1:
